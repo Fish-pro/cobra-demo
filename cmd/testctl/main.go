@@ -8,7 +8,6 @@ import (
 
 func main() {
 	cmd := testctl.NewTestCtl("testctl")
-
 	if err := cmd.Execute(); err != nil {
 		os.Exit(1)
 	}
